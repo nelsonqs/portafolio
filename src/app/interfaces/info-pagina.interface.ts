@@ -1,4 +1,4 @@
-
+import {InfoEquipo} from './info-equipo.interface';
 
 
 export interface InfoPagina {
@@ -10,5 +10,5 @@ export interface InfoPagina {
   twitter?: string;
   instagram?: string;
   tublr?: string;
-  equipo_trabajo?: any[];
+  equipo_trabajo?: InfoEquipo[];
 }
